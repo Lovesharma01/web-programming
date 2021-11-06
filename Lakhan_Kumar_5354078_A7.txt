@@ -1,0 +1,118 @@
+ASSIGNMENT 7 
+Lakhan Kumar        Student Id - 5354078
+
+Answer1 - <?php
+$int_a = 5354078;
+echo $int_a;
+	$float_a = " 245870.452 ";
+echo $float_a;
+$string_a = " LAKHAN KUMAR ";
+echo $string_a;
+?>
+
+Answer2 - <?php
+
+$P = 'LAKHAN';
+$Q = ' KUMAR ';
+$R = $P.$Q;
+echo " $R ";
+
+?>
+
+Answer3 - <?php
+$cities = array("Chandigarh", "Sangrur", "Mansa", "Bathinda", "Ludhiana", "Patiala");
+echo  count($cities);
+?>
+
+Answer4 - <?php
+
+$a=array(1,5,4,8,10);
+echo array_sum($a);
+ if(array_sum($a) > "135")
+   {
+      echo " Big ";
+   }
+   else
+   {
+     echo " Small ";
+   }
+?>
+
+Answer5 - <?php
+
+$a = " this is a php program ";
+echo $a;
+$b = rtrim($a);
+var_dump($a);
+var_dump($b);
+$str1 = " this is a php program ";
+echo strlen($str1);
+echo ucfirst($str1);
+$count = str_word_count($str1);
+echo $count;
+echo str_replace("program", "snippet", $str1);
+
+?>
+
+Answer6 - ?php
+
+function display($number){
+    if($number % 2 == 0){
+        echo "Even"; 
+    }
+    else{
+        echo "Odd";
+    }
+}
+$number = 21;
+display($number)
+?>
+
+Answer7 - <?php
+
+$a = 1;
+$b = 25;
+
+$sum = 0;
+for ($i = $a; $i <= $b; $i++) {
+    $sum += $i;
+}
+
+echo $sum;
+?>
+
+Answer8 - <?php
+
+$x = 15;
+if($x < "20")
+   {
+      echo "minor";
+   }
+   elseif ($x>= "18" && $x<"3o")
+    {
+      echo "young";
+   }
+    elseif ($x>= "30" && $x<"50")
+    {
+      echo "middle age";
+   }
+    elseif ($x>= "50")
+    {
+      echo "old";
+   }
+?>
+
+Answer9 - <?php
+
+$table = 2;
+$length = 5;
+$i = 1;
+
+echo "Multiplication table: $table";
+for($i=1; $i<=$length; $i++)
+ echo "  $i * $table = ".$i * $table;
+
+?>
+
+
+Answer10 - 

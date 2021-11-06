@@ -1,0 +1,70 @@
+Answer 1--
+console.log("5",evenOdd(5))
+console.log("4",evenOdd(4))
+
+function evenOdd(n){
+    if(n%2==0)
+    return "Even"
+    else
+    return "Odd"
+}
+
+Answer 2--
+
+console.log("Factorial of 5 = ",factorial(4))
+
+function factorial(num){
+for(var i=num-1;i>=1;i--)
+num*=i;
+return num;
+}
+
+
+
+Answer 3--
+console.log("The largest number is ",getBiggest(5555,343564,123))
+
+function getBiggest(num1,num2,num3){
+if(num1 > num2 && num1 > num3)
+return num1
+else if (num2 > num3 && num2 > num1)
+return num2
+else
+return num3
+}
+
+Answer 4--
+var str1 = "  Welcome to Web Programming course  ";
+
+console.log("length is =",str1.length)
+str1 = str1.trim();
+
+console.log("after trim: ",str1)
+
+console.log("upper case string:",str1.toUpperCase())
+
+console.log("index 4 to +8 characters:",str1.substr(4,8))
+
+console.log("retrieving web:",str1.substring(12,14))
+
+console.log("replacing Programming with Development:",str1.replace("Programming","Development"))
+
+Answer 5--
+var Student = {
+    "stId":"5354078",
+    "fName":"Lakhan",
+    "lName":"Kumar",
+    "Age":20,
+    "Department":"Software testing "
+}
+
+console.log("First Name :",Student.fName)
+console.log("Age =",Student.Age)
+Student.Age+=10;
+console.log("Age +10 = ",Student.Age)
+
+Answer 6--
+const PI = 3.14
+let R=3;
+var circumference = 2*PI*r;
+console.log("Circumference of circle :",circumference)

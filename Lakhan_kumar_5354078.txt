@@ -1,0 +1,56 @@
+
+Answer 2--
+var daysOfWeek = ["Monday","Tuesday","Wednesday","Thursday","Friday"];
+console.log(daysOfWeek);
+daysOfWeek.push("Saturday")
+daysOfWeek.unshift("Sunday")
+
+
+
+Answer 3--
+
+for(var i=1;i<=10;i++){
+console.log(i)
+}
+
+
+Answer 4--
+for(var i=1;i<=100;i++){
+    if(i%2==0)
+    console.log(i)
+}
+
+Answer 5--
+switch (1) {
+    case 1:
+        console.log("Monday")
+    case 2:
+        console.log("Tuesday")
+    case 3:
+        console.log("Wednesday")
+    case 4:
+        console.log("Thursday")
+    case 5:
+        console.log("Friday")
+    case 6:
+        console.log("Saturday")
+    case 7:
+        console.log("Sunday")
+}
+
+Answer 6--
+var count=1;
+do{
+    console.log("Hello World !!")
+    count++;
+}
+while(count<=7);
+
+
+
+Answer 7--
+var number = 13;
+if(number>18 && number <25)
+console.log("number is greater than 18 and less than 25")
+else
+console.log("number is not greater than 18 and less than 25")
